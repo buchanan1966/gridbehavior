@@ -1,0 +1,19 @@
+.selectable {
+    background-color: #818a91;
+    border-width: medium;
+    border-style: solid;
+}
+
+.selectable.selected {
+    color: red;
+    font-weight: bold;
+}
+
+.selectable.selected.recommended {
+    color: green;
+    font-weight: bold;
+}
+
+.selectable.recommended {
+    border-color: green;
+}
